@@ -1,4 +1,4 @@
-#' My Hello World Function
+h#' My Hello World Function
 #'
 #' @description This is my 1st package
 #'
@@ -11,6 +11,11 @@
 #' \dontrun{
 #' hello("Steve)
 #' }
-hello <- function(x) {
-  print(paste0("Hello ",x, ", this is the world!"))
+earth <- function(love = TRUE) {
+  if (love == TRUE) {
+  print("I love the earth!")
+    }
+  else{
+    print("I love to go to space!)
+  }
 }
